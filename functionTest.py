@@ -4,7 +4,7 @@ import threading
 from threading import Thread
 
 #### FILE NAME GOES HERE ####
-csvFileName = "fileName.csv"
+csvFileName = sys.argv[-1]
 
 csvfile = open(csvFileName,'r', encoding='utf-8')
 csv=[]
