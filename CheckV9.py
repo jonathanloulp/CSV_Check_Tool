@@ -33,9 +33,10 @@
 ################################
 
 import re
+import sys
 
 #### FILE NAME GOES HERE ####
-csvFileName = "TestInvalid.csv"
+csvFileName = "sys.argv[-1]
 
 csvfile = open(csvFileName,'r', encoding='utf-8')
 csv=[]
